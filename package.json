@@ -7,7 +7,19 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://niteenautade@github.com/niteenautade/unito-s3-upload.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niteenautade/unito-s3-upload/issues"
+  },
+  "homepage": "https://github.com/niteenautade/unito-s3-upload#readme",
+  "author": {
+    "name": "Niteen Autade",
+    "email": "niteenautade@gmail.com",
+    "url": "https://github.com/niteenautade"
+  },
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.326.0",
