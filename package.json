@@ -13,4 +13,6 @@
     "aws-sdk": "^2.326.0",
     "sharp": "^0.20.8"
   }
+  "author": "",
+  "license": "ISC"
 }
