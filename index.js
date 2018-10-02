@@ -7,6 +7,9 @@ var unitoS3Upload = (awsConfig,buffer, filename, resizeWidth, resizeHeight) => {
 		.then(compressedImage => {
             return awsUpload(awsConfig,filename,compressedImage)
         })
+        .then(data=>{
+        	resolve(data)
+        })
         .catch(err => {
             reject(err)
         });	
